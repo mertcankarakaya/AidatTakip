@@ -155,7 +155,7 @@ namespace AidatTakibi.MyClass
             haneBorcdt.Clear();
             //aile_borc_bilgi tablosundaki verileri okuyan bir sorgu yazdım.
             //aile_borc_bilgi tablosu aile_bilgi ve borc_bilgisi tablosu ile ileşkili olduğu için o diğer taablolarla join yapıp diğer tablodaki bilgilere de eriştim.
-            string kayit = "Select ab.daire_no as 'Daire Numarası',ab.ailenin_adi as 'Ailenin Adı',bb.borc_donemi as 'Borç Dönemi',bb.borc_miktari as 'Borç Ücreti',abb.borcun_durumu as 'Borcun Durumu',abb.odeme_tarihi as 'Ödeme Tarihi' from aile_borc_bilgi abb join aile_bilgi ab on abb.aile_bilgi_id=ab.id join borc_bilgisi bb on bb.borc_id=abb.borc_bilgisi_id";
+            string kayit = "Select ab.daire_no as 'Daire Numarası',ab.ailenin_adi as 'Ailenin Adı',bb.borc_donemi as 'Borç Dönemi',bb.borc_miktari as 'Borç Ücreti',abb.borcun_durumu as 'Borcun Durumu',abb.odeme_tarihi as 'Ödeme Tarihi' from aile_borc_bilgi abb join aile_bilgi ab on abb.aile_bilgi_id=ab.id join borc_bilgisi bb on bb.borc_id=abb.borc_bilgisi_id order by bb.borc_id desc";
             SqlDataAdapter adapter = new SqlDataAdapter(kayit, baglanti);
             //Gelen verileri dataset nesnesine gönderdim.
             adapter.Fill(haneBorcds);
@@ -172,7 +172,7 @@ namespace AidatTakibi.MyClass
             //aile_borc_bilgi tablosundaki verileri okuyan bir sorgu yazdım.
             //aile_borc_bilgi tablosu aile_bilgi ve borc_bilgisi tablosu ile ileşkili olduğu için o diğer taablolarla join yapıp diğer tablodaki bilgilere de eriştim.
             //Ve buradaki bilgileri daire numarasına göre getiriyor.
-            string kayit = "Select ab.daire_no as 'Daire Numarası',ab.ailenin_adi as 'Ailenin Adı',bb.borc_donemi as 'Borç Dönemi',bb.borc_miktari as 'Borç Ücreti',abb.borcun_durumu as 'Borcun Durumu',abb.odeme_tarihi as 'Ödeme Tarihi' from aile_borc_bilgi abb join aile_bilgi ab on abb.aile_bilgi_id=ab.id join borc_bilgisi bb on bb.borc_id=abb.borc_bilgisi_id where ab.daire_no='" + daireNumarasi + "'";
+            string kayit = "Select ab.daire_no as 'Daire Numarası',ab.ailenin_adi as 'Ailenin Adı',bb.borc_donemi as 'Borç Dönemi',bb.borc_miktari as 'Borç Ücreti',abb.borcun_durumu as 'Borcun Durumu',abb.odeme_tarihi as 'Ödeme Tarihi' from aile_borc_bilgi abb join aile_bilgi ab on abb.aile_bilgi_id=ab.id join borc_bilgisi bb on bb.borc_id=abb.borc_bilgisi_id where ab.daire_no='" + daireNumarasi + "' order by bb.borc_id desc";
             SqlDataAdapter adapter = new SqlDataAdapter(kayit, baglanti);
             //Gelen verileri dataset nesnesine gönderdim.
             adapter.Fill(kisiHaneBorcds);
