@@ -187,7 +187,7 @@ namespace AidatTakibi.MyClass
         {
             borcdt.Clear();
             //Borç dönem bilgisi ve miktarının olduğu borc_bilgisi tablosundaki bilgileri döndürmek için bir sorgu yazdım.
-            string kayit = "SELECT borc_id,borc_donemi as 'Borç Dönemi', borc_miktari as 'Ücret Bilgisi' from borc_bilgisi";
+            string kayit = "SELECT borc_id,borc_donemi as 'Borç Dönemi', borc_miktari as 'Ücret Bilgisi' from borc_bilgisi order by borc_id desc";
             SqlDataAdapter adapter = new SqlDataAdapter(kayit, baglanti);
             //Gelen verileri dataset nesnesine gönderdim.
             adapter.Fill(borcds);

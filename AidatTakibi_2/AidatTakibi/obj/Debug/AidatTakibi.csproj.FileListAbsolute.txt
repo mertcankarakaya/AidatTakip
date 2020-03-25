@@ -37,3 +37,16 @@ C:\Users\Hp\source\repos\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csproj.
 C:\Users\Hp\source\repos\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csproj.CopyComplete
 C:\Users\Hp\source\repos\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.exe
 C:\Users\Hp\source\repos\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.pdb
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\bin\Debug\AidatTakibi.exe.config
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\bin\Debug\AidatTakibi.exe
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\bin\Debug\AidatTakibi.pdb
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csprojAssemblyReference.cache
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.Form1.resources
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.Properties.Resources.resources
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csproj.GenerateResource.cache
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.csproj.CopyComplete
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.exe
+C:\Users\Hp\Documents\GitHub\AidatTakip\AidatTakibi_2\AidatTakibi\obj\Debug\AidatTakibi.pdb
